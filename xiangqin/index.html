@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+
+    <script src="js/rem.js" type="text/javascript"></script>
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+<div id="button" class="row">
+    <div class="row copy">
+        <img src="img/qq.png">
+        <p style="   margin-left: 0.05rem;">加入QQ群：<span id="target">333655</span></p>
+    </div>
+    <div class="btn" data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn">
+        点击复制
+    </div>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/a1.png">
+        <div class="bottom column">
+            <div class="bottom_top row"><p>陌上开花</p><img src="img/a2.png"></div>
+            <div class="bottom_bott row">
+                <img src="img/a3.png">
+                <p style="margin-left: 0.05rem"><span class="age">22</span>岁  <span class="sc">北京市-朝阳区 </span>  <span class="xingzuo">双子座</span></p>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide"><img src="img/a1.png">
+            <div class="bottom column">
+                <div class="bottom_top row"><p>陌上开花</p><img src="img/a2.png"></div>
+                <div class="bottom_bott row">
+                    <img src="img/a3.png">
+                    <p style="margin-left: 0.05rem"><span class="age">22</span>岁  <span class="sc">北京市-朝阳区 </span>  <span class="xingzuo">双子座</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="img/a1.png">
+            <div class="bottom column">
+                <div class="bottom_top row"><p>陌上开花</p><img src="img/a2.png"></div>
+                <div class="bottom_bott row">
+                    <img src="img/a3.png">
+                    <p style="margin-left: 0.05rem"><span class="age">22</span>岁  <span class="sc">北京市-朝阳区 </span>  <span class="xingzuo">双子座</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination dian"></div>
+</div>
+<div class="row image_list">
+    <img src="img/b1.png">
+    <img src="img/b2.png">
+    <img src="img/b3.png">
+    <img src="img/b4.png">
+</div>
+<div class="xiangsi row"><img src="img/c1.png"><p>她与你的匹配度68%</p></div>
+<div class="list1">
+    <div class="list1_l row"><div class="shu"></div><p style="margin-left: 0.1rem">Ta的征友条件</p></div>
+    <div class="list1_lj row"><p>我想和ta在北京，年龄21-25岁，身高175以上，可以无房无</p></div>
+    <div class="list1_lj row"><p>车，人好就行！！</p></div>
+</div>
+<div class="list1">
+    <div class="list1_l row"><div class="shu"></div><p style="margin-left: 0.1rem">个人介绍</p></div>
+    <div class="list1_lj row"><p>被动，多才多艺，性格多变</p></div>
+    <div class="list1_lj row"><p>皮肤好，眼睛大，有腹肌，个子不高，台风吹不跑。</p></div>
+</div>
+<div class="aihao">
+    <div class="list1_l row" style="height: 0.8rem"><div class="shu"></div><p style="margin-left: 0.1rem">Ta的征友条件</p></div>
+    <div class="aihao_l">
+        <div class="aihao_ll"><p>喜欢的音乐风格</p></div>
+        <div class="aihao_l_q row">
+            <div class="btn">摇滚</div>  <div class="btn">民谣</div>  <div class="btn">流行</div>
+        </div>
+    </div>
+    <div class="aihao_l">
+        <div class="aihao_ll"><p>喜欢的电影风格</p></div>
+        <div class="aihao_l_q row">
+            <div class="btn">喜剧</div>  <div class="btn">科幻</div>  <div class="btn">动作</div>
+        </div>
+    </div>
+    <div class="aihao_l">
+        <div class="aihao_ll"><p>喜欢的书籍</p></div>
+        <div class="aihao_l_q row">
+            <div class="btn">小说</div>  <div class="btn">传记</div>
+        </div>
+    </div>
+    <div class="aihao_l">
+        <div class="aihao_ll"><p>喜欢的游戏</p></div>
+        <div class="aihao_l_q row">
+            <div class="btn">吃鸡</div>  <div class="btn">电脑游戏</div>
+        </div>
+    </div>
+    <div class="aihao_l">
+        <div class="aihao_ll"><p>宠物</p></div>
+        <div class="aihao_l_q row">
+            <div class="btn">狗子</div>  <div class="btn">猫咪</div>
+        </div>
+    </div>
+</div>
+<div class="fotter row">
+    <img src="img/d1.png">
+    <p style="margin-left: 0.05rem">赞!</p>
+</div>
+
+
+
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal', // 垂直切换选项
+      //  autoplay:true, // 循环模式选项
+        loop: true,
+        speed: 1500,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    })
+</script>
+</body>
+<script>
+    $(document).ready(function() {
+        $(".btn").click(function () {
+            var clipboard = new Clipboard('#copy_btn');
+            clipboard.on('success', function (e) {
+                alert("复制成功");
+                e.clearSelection();
+            });
+            console.log(clipboard);
+        });
+        $('.xingzuo').each(function () {
+            var ge = Math.round(Math.random() * 11 + 1);
+            switch (ge) {
+                case 1:
+                    $(this).text('白羊座');
+                    break;
+                case 2:
+                    $(this).text('金牛座');
+                    break;
+                case 3:
+                    $(this).text('双子座');
+                    break;
+                case 4:
+                    $(this).text('巨蟹座');
+                    break;
+                case 5:
+                    $(this).text('狮子座');
+                    break;
+                case 6:
+                    $(this).text('处女座');
+                    break;
+                case 7:
+                    $(this).text('天秤座');
+                    break;
+                case 8:
+                    $(this).text('天蝎座');
+                    break;
+                case 9:
+                    $(this).text('射手座');
+                    break;
+                case 10:
+                    $(this).text('摩羯座');
+                    break;
+                case 11:
+                    $(this).text('水瓶座');
+                    break;
+                case 12:
+                    $(this).text('双鱼座');
+                    break;
+                default:
+                    $(this).text('白羊座')
+            }
+        });
+        $('.age').each(function () {
+            var Age = Math.round(Math.random() * 6 + 22);
+            $(this).text(Age)
+        });
+     
+    })
+</script>
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+	<script type="text/javascript">  
+//		alert(returnCitySN["cip"]+','+returnCitySN["cname"]);
+		$('.sc').text(returnCitySN["cname"]);
+	</script>
+</html>
